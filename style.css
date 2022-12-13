@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -24,8 +25,10 @@ main {
 }
 
 .images {
-  margin: 64px 81px 46px 98px;
+  display: grid;
   grid-template-areas: "A B C" "D B F" "D E F";
+  width: 100%;
+  height: auto;
 }
 
 .images div:nth-child(1) {
